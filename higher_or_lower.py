@@ -14,12 +14,10 @@ def higher_or_lower(x, y):
     while(x != y):
         if (x > y):
             print("Your number is too high. Please guess again")
-            print( x, y)
             x = int(input())
             continue
         elif (x < y):
             print("Your number is too low. Please guess again")
-            print(x, y)
             x = int(input())
             continue
         elif (x == y):
